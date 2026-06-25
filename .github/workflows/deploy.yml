@@ -42,7 +42,7 @@ jobs:
         uses: azure/aks-set-context@v3
         with:
           cluster-name: ${{secrets.AKS_CLUSTER_NAME}}}
-          resource-group: ${{secrets.RESOURCE_GROUP}}}
+          resource-group: CICDpipelineWithAzureDevops
 
 
       - name: Deploy to AKS
