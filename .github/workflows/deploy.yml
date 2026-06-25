@@ -41,7 +41,7 @@ jobs:
       - name: Set AKS context
         uses: azure/aks-set-context@v3
         with:
-          cluster-name: ${{secrets.AKS_CLUSTER_NAME}}}
+          cluster-name: Multi-node-Cluster 
           resource-group: CICDpipelineWithAzureDevops
 
 
