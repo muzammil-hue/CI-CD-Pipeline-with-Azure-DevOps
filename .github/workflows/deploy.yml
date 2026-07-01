@@ -39,7 +39,7 @@ jobs:
         run: docker push containeregistryy.azurecr.io/result:${{ github.sha }}
 
       - name: Set AKS context
-        uses: azure/aks-set-context@v3
+        uses: azure/aks-set-context@v5
         with:
           cluster-name: Multi-node-Cluster 
           resource-group: CICDpipelineWithAzureDevops
